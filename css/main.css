@@ -16,7 +16,7 @@
  *  08. common styles
  *  09. header styles
  *  10. intro
- *  11. about
+ *  11. rundown
  *  12. resume
  *  13. portfolio
  *  14. call-to-action section
@@ -955,14 +955,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 0;
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #ffffff;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 }
 .skill-bars li .progress {
-	background: #313131;
+	background: #00cc99;
 	position: relative;
 	height: 100%;
 }
@@ -1470,15 +1470,15 @@ header .top-bar {
 
 /**
  * ===================================================================
- * 11. about - (_layout.scss)
+ * 11. rundown - (_layout.scss)
  *
  * -------------------------------------------------------------------
  */
-#about {
+#rundown {
 	background: #FFFFFF;
 	padding-bottom: 6.6rem;
 }
-#about .section-intro {
+#rundown .section-intro {
 	margin-bottom: 3rem;
 }
 
@@ -1501,27 +1501,27 @@ header .top-bar {
 	color: black;
 }
 
-.about-content {
+.rundown-content {
 	position: relative;
 	text-align: left;
 	max-width: 850px;
 	margin-bottom: 3.6rem;
 }
-.about-content h3 {
+.rundown-content h3 {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
-.about-content .info-list {
+.rundown-content .info-list {
 	list-style: none;
 	margin-left: 0;
 }
-.about-content .info-list li {
+.rundown-content .info-list li {
 	padding: 0 0 1.5rem 0;
 	margin-bottom: .6rem;
 }
-.about-content .info-list li strong {
+.rundown-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
 	color: #313131;
 	text-transform: uppercase;
@@ -1529,14 +1529,14 @@ header .top-bar {
 	font-size: 1.5rem;
 	line-height: 3rem;
 }
-.about-content .info-list li span {
+.rundown-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
 	color: #888888;
 	font-size: 1.5rem;
 	line-height: 1;
 }
-.about-content .skill-bars {
+.rundown-content .skill-bars {
 	margin-top: 6rem;
 }
 
@@ -1569,10 +1569,10 @@ header .top-bar {
 	.intro-info .lead {
 		padding-left: 11rem;
 	}
-	.about-content h3 {
+	.rundown-content h3 {
 		text-align: center;
 	}
-	.about-content .info-list, .about-content .skill-bars {
+	.rundown-content .info-list, .rundown-content .skill-bars {
 		margin-bottom: 4.2rem;
 	}
 	.button-section .button {
@@ -1959,12 +1959,12 @@ header .top-bar {
 
 /**
  * ===================================================================
- * 15. services - (_layout.scss)
+ * 15. personality - (_layout.scss)
  *
  * -------------------------------------------------------------------
  */
-#services {
-	background: #313131 url(../images/bg.jpg) no-repeat center;
+#personality {
+	background-color: #fdfdfd;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1973,7 +1973,7 @@ header .top-bar {
 	color: white;
 	position: relative;
 }
-#services .overlay {
+#personality .overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1983,42 +1983,42 @@ header .top-bar {
 	opacity: .9;
 }
 
-#services .section-intro {
+#personality .section-intro {
 	margin-bottom: 1.8rem;
 }
 
-#services .section-intro h1 {
+#personality .section-intro h1 {
 	color: white;
 }
-#services .section-intro h5 {
+#personality .section-intro h5 {
 	color: #00cc99;
 }
-#services .section-intro p {
+#personality .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
-.services-content {
+.personality-content {
 	max-width: 1200px;
 }
-.services-list {
+.personality-list {
 	margin-top: 1.2rem;
 	text-align: center;
 }
-.services-list .service {
+.personality-list .service {
 	margin-bottom: 1.2rem;
 	padding: 0 30px;
 }
-.services-list .icon {
+.personality-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
 }
-.services-list .icon i {
+.personality-list .icon i {
 	font-size: 5.4rem;
 	color: #00cc99;
 }
-.services-list h3 {
+.personality-list h3 {
 	color: #FFFFFF;
 }
-.services-list .desc {
+.personality-list .desc {
 	color: rgba(255, 255, 255, 0.6);
 }
 
@@ -2120,7 +2120,6 @@ header .top-bar {
  */
 #contact {
 	background: #151515;
-	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
 #contact .section-intro h1 {
