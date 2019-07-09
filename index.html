@@ -1,21 +1,341 @@
 <!DOCTYPE html>
-<!--[if lte IE 8]> <html class="oldie" lang="en"> <![endif]-->
-<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
+	<!--- basic page needs
+   ================================================== -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="format-detection" content="telephone=no">
-	<title>Harkamal Khabra</title>
-	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-	<link rel="stylesheet" href="css/all.css" />
-	<link rel="stylesheet" href="css/screen.css" />
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<title>Harkamal Khabra - Web Developer</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/vendor.css">
+
+	<!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
 </head>
-<body>
+
+<body id="top">
+	<!-- header
+   ================================================== -->
+	<header>
+		<div class="row">
+			<div class="top-bar">
+				<a class="menu-toggle" href="#"><span>Menu</span></a>
+				<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
+						<li><a class="smoothscroll" href="#about" title="">About Me</a></li>
+						<li><a class="smoothscroll" href="#projects" title="">Projects</a></li>
+						<li><a class="smoothscroll" href="#work" title="">Work Experience</a></li>
+						<li><a class="smoothscroll" href="#personality" title="">Personality</a></li>
+					</ul>
+				</nav>
+			</div> <!-- /top-bar -->
+		</div> <!-- /row -->
+	</header> <!-- /header -->
+
+	<!-- intro section
+   ================================================== -->
+	<section id="intro">
+		<div class="intro-overlay"></div>
+		<div class="intro-content">
+			<div class="row">
+				<div class="col-twelve">
+					<h5>Web Developer</h5>
+					<h1>Harkamal Khabra</h1>
+					<p class="intro-position">
+						<span>Toronto, Ontario, Canada</span>
+					</p>
+					<a class="button stroke smoothscroll" href="#about" title="">More below...</a>
+				</div>
+			</div>
+		</div> <!-- /intro-content -->
+	</section> <!-- /intro -->
+
+	<!-- about section
+   ================================================== -->
+	<section id="about">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>The Rundown</h5>
+				<div class="intro-info">
+					<img src="/" alt="Profile Picture">
+					<p class="lead">Full-stack web developer based in Toronto, Ontario, Canada.</p>
+				</div>
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row about-content">
+			<div class="col-six tab-full">
+				<h3>Essentials</h3>
+				<ul class="info-list">
+					<li>
+						<strong>Name:</strong>
+						<span>Harkamal Khabra</span>
+					</li>
+					<li>
+						<strong>Email:</strong>
+						<span>khabra07@gmail.com</span>
+					</li>
+				</ul> <!-- /info-list -->
+			</div>
+
+			<div class="col-six tab-full">
+				<h3>Skills</h3>
+				<ul class="skill-bars">
+					<li>
+						<div class="progress percent90"><span>90%</span></div>
+						<strong>HTML5</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>CSS</strong>
+					</li>
+					<li>
+						<div class="progress percent70"><span>70%</span></div>
+						<strong>JQuery</strong>
+					</li>
+					<li>
+						<div class="progress percent85"><span>85%</span></div>
+						<strong>Bootstrap</strong>
+					</li>
+					<li>
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>PHP</strong>
+					</li>
+					<li>
+						<div class="progress percent75"><span>75%</span></div>
+						<strong>Java script</strong>
+					</li>
+				</ul> <!-- /skill-bars -->
+			</div>
+		</div>
+
+		<div class="row button-section">
+			<div class="col-twelve">
+				<a href="#contact" title="Hire Me" class="button stroke smoothscroll">CONTACT ME</a>
+				<a href="/" target="_blank" title="Download CV" class="button button-primary">RESUME (.pdf)</a>
+			</div>
+		</div>
+	</section> <!-- /process-->
+
+	<section id="projects" class="green-section">
+		<div class="row resume-timeline">
+			<div class="col-twelve resume-header">
+				<h2>Projects</h2>
+			</div> <!-- /resume-header -->
+			<div class="col-twelve">
+				<div class="timeline-wrap">
+					<div class="timeline-block">
+						<div class="timeline-header">
+							<h3>roomR | A roommate finding webapp.</h3>
+							<p>Déploiement et mise en service des équipements radio et
+								transmission du réseau Bouygues Télécom en Ile-deFrance.
+							</p>
+						</div>
+						<div class="timeline-block">
+							<div class="timeline-header">
+								<h3>Walmark | Pinterest with a focus on educational links.</h3>
+								<p>Déploiement et mise en service des équipements radio et
+									transmission du réseau Bouygues Télécom en Ile-deFrance.
+								</p>
+							</div>
+						</div> <!-- /timeline-block -->
+
+					</div> <!-- /timeline-block -->
+				</div> <!-- /timeline-wrap -->
+			</div> <!-- /col-twelve -->
+		</div> <!-- /resume-timeline -->
+	</section> <!-- /features -->
+
+
+	<!-- resume Section
+   ================================================== -->
+	<section id="work" class="grey-section">
+		<div class="row resume-timeline">
+			<div class="col-twelve resume-header">
+				<h2>Work Experience</h2>
+			</div> <!-- /resume-header -->
+			<div class="col-twelve">
+				<div class="timeline-wrap">
+					<div class="timeline-block">
+						<div class="timeline-header">
+							<h3>goclean inc. | TORONTO, Canada - Operations Manager – 2013 - 2018</h3>
+							<p>Déploiement et mise en service des équipements radio et
+								transmission du réseau Bouygues Télécom en Ile-deFrance.
+							</p>
+						</div>
+					</div> <!-- /timeline-block -->
+				</div> <!-- /timeline-block -->
+			</div> <!-- /timeline-wrap -->
+		</div> <!-- /col-twelve -->
+		</div> <!-- /resume-timeline -->
+	</section> <!-- /features -->
+
+	<!-- Education Section
+	 ================================================== -->
+	<section id="education" class="grey-section">
+		<div class="row resume-timeline">
+			<div class="col-twelve resume-header">
+				<h2>Education</h2>
+			</div> <!-- /resume-header -->
+			<div class="col-twelve">
+				<div class="timeline-wrap">
+					<div class="timeline-block">
+						<div class="timeline-header">
+							<h3>Lighthouse Labs | TORONTO, Canada - Full-stack Web Development Bootcamp – 2019</h3>
+							<p>Déploiement et mise en service des équipements radio et
+								transmission du réseau Bouygues Télécom en Ile-deFrance.
+							</p>
+						</div>
+						<div class="timeline-block">
+							<div class="timeline-header">
+								<h3>York University | TORONTO, Canada - BA. Geography – 2018</h3>
+							</div>
+						</div> <!-- /timeline-block -->
+
+					</div> <!-- /timeline-block -->
+				</div> <!-- /timeline-wrap -->
+			</div> <!-- /col-twelve -->
+		</div> <!-- /resume-timeline -->
+	</section> <!-- /features -->
+
+	<!-- Personality Section
+   ================================================== -->
+	<section id="personality">
+		<div class="overlay"></div>
+
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Personality</h5>
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row services-content">
+			<div id="owl-slider" class="owl-carousel services-list">
+				<div class="service">
+					<span class="icon"><i class="icon-window"></i></span>
+					<div class="service-content">
+						<h3>Interests</h3>
+						<p class="desc">#soccer #tech #music #movies </br>#space #robots
+						</p>
+					</div>
+				</div> <!-- /service -->
+				<div class="service">
+					<span class="icon"><i class="icon-earth"></i></span>
+					<div class="service-content">
+						<h3>LANGUES</h3>
+						<ul class="skill-bars">
+							<li>
+								<div class="progress percent100"><span>100%</span></div>
+								<strong>ARABE</strong>
+							</li>
+							<li>
+								<div class="progress percent85"><span>85%</span></div>
+								<strong>ANGLAIS</strong>
+							</li>
+							<li>
+								<div class="progress percent70"><span>70%</span></div>
+								<strong>FRANcAIS</strong>
+							</li>
+						</ul>
+					</div>
+				</div> <!-- /services-list -->
+
+				<div class="service">
+					<span class="icon"><i class="icon-chat"></i></span>
+					<div class="service-content">
+						<h3>Personnalité</h3>
+						<p class="desc"> Personnalité : # sérieux # dynamique # organisé
+							# travail en équipe .
+						</p>
+					</div>
+				</div> <!-- /service -->
+			</div> <!-- /services-content -->
+	</section> <!-- /services -->
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact">
+		<div class="row section-intro">
+			<div class="col-twelve">
+				<h5>Contact Details</h5>
+			</div>
+		</div> <!-- /section-intro -->
+
+		<div class="row contact-info">
+			<div class="col-four tab-full">
+				<div class="icon">
+					<i class="icon-pin"></i>
+				</div>
+				<h5>Location</h5>
+				<p>
+					Toronto, Ontario,<br>
+					Canada
+				</p>
+			</div>
+
+			<div class="col-four tab-full collapse">
+				<div class="icon">
+					<i class="icon-mail"></i>
+				</div>
+				<h5>E-MAIL</h5>
+				<p>khabra07@gmail.com</p>
+			</div>
+
+			<div class="col-four tab-full collapse">
+				<div class="icon">
+					<i class="icon-pen"></i>
+				</div>
+				<h5>LinkedIn</h5>
+				<p>http://www.linkedin.com/in/harkamal-khabra</p>
+			</div>
+		</div> <!-- /contact-info -->
+	</section> <!-- /contact -->
+
+	<!-- footer
+   ================================================== -->
+
+	<footer>
+		<div class="row">
+			<div class="col-six tab-full pull-right social">
+				<ul class="footer-social">
+					<li><a target="_blank" href="https://github.com/harkk"><i class="fa fa-github" aria-hidden="true"></i>
+						</a></li>
+				</ul>
+			</div>
+
+			<div id="go-top">
+				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+			</div>
+		</div> <!-- /row -->
+	</footer>
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
 
 </body>
+
 </html>
