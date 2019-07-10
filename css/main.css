@@ -1451,6 +1451,13 @@ header .top-bar {
 	font-size: 1.5rem;
 	line-height: 3rem;
 }
+.rundown-content .info-list li a {
+	display: block;
+	font-family: "poppins-regular", sans-serif;
+	color: #888888;
+	font-size: 1.5rem;
+	line-height: 1;
+}
 .rundown-content .info-list li span {
 	display: block;
 	font-family: "poppins-regular", sans-serif;
