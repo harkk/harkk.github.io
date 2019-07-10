@@ -1906,7 +1906,7 @@ header .top-bar {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	padding-top: 12rem;
+	padding-top: 1rem;
 	padding-bottom: 12rem;
 	color: white;
 	position: relative;
