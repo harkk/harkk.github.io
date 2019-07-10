@@ -2233,6 +2233,9 @@ header .top-bar {
 .contact-info h5 {
 	color: #00cc99;
 }
+.contact-info a {
+	color: #6E6E6E;
+}
 
 
 /**
