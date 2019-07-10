@@ -1907,7 +1907,7 @@ header .top-bar {
 	-moz-background-size: cover;
 	background-size: cover;
 	padding-top: 1rem;
-	padding-bottom: 12rem;
+	padding-bottom: 6rem;
 	color: white;
 	position: relative;
 }
@@ -2058,7 +2058,7 @@ header .top-bar {
  */
 #contact {
 	background: #151515;
-	padding-bottom: 7.2rem;
+	padding-bottom: 0rem;
 }
 #contact .section-intro h1 {
 	color: white;
