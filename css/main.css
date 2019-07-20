@@ -1779,6 +1779,10 @@ header .top-bar {
 	margin-bottom: 3rem;
 }
 
+.timeline-block p {
+	color:#434343;
+}
+
 /**
  * transition effect for modal popup - (_layout.scss)
  * ------------------------------------------------------------------
